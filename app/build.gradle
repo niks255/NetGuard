@@ -52,7 +52,7 @@ android {
             signingConfig signingConfigs.release
             buildConfigField "boolean", "PLAY_STORE_RELEASE", "false"
             buildConfigField "String", "HOSTS_FILE_URI", "\"https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts\""
-            buildConfigField "String", "GITHUB_LATEST_API", "\"https://api.github.com/repos/M66B/NetGuard/releases/latest\""
+            buildConfigField "String", "GITHUB_LATEST_API", "\"https://api.github.com/repos/niks255/NetGuard/releases/latest\""
         }
         play {
             minifyEnabled = true
